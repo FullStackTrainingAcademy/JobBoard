@@ -1,0 +1,89 @@
+body {
+  background-color: #faeaec;
+  margin: 0;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2f3d7e;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+  display: inline;
+  float: left;
+  font-family: "Open Sans";
+}
+
+li a {
+  display: block;
+  color: #faeaec;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 50px;
+}
+
+li a:hover {
+  background-color: #faeaec;
+  color: #2f3d7e;
+}
+
+.title {
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: "Oleo Script";
+  color: #2f3d7e;
+  text-shadow: 2px 2px 2px grey, 0.5px 0.5px 1px #000;
+  margin-bottom: 40px;
+}
+
+body p {
+  text-align: center;
+}
+
+.tableheader {
+  font-family: "Open Sans";
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  width: 500px;
+  border: 5px solid #2f3d7e;
+  background-color: #2f3d7e;
+  color: #faeaec;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.tablecontent {
+  font-family: "Open Sans";
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  border: 5px solid #2f3d7e;
+  width: 500px;
+  height: 300px;
+  border-top: 0px;
+  color: #2f3d7e;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.header,
+.box {
+  display: inline;
+  float: center;
+}
+
+.header,
+.box {
+  margin-left: 48%;
+}
